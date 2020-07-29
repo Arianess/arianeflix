@@ -8,7 +8,7 @@ import CadastroVideo from './pages/cadastro/Video';
 import CadastroCategoria from './pages/cadastro/Categoria';
 
 const Page404 = () => (
-  <div>Página não encontrada!</div>
+  <div>Erro 404! Página não encontrada! :(</div>
 );
 
 ReactDOM.render(

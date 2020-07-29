@@ -42,8 +42,8 @@
   }
   
   .ButtonLink {
-    color: var(--white);
-    border: 1px solid var(--white);
+    color: var(--blueTheme);
+    border: 1px solid var(--blueTheme);
     box-sizing: border-box;
     cursor: pointer;
     padding: 16px 24px;
@@ -67,7 +67,7 @@
       left: 0;
       right: 0;
       bottom: 0;
-      background: var(--primary);
+      background: var(--black);
       border-radius: 0;
       border: 0;
       text-align: center;
