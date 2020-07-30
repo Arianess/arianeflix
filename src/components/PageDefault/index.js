@@ -7,9 +7,10 @@ const Main = styled.main`
     background-color: var(--black);
     color: var(--white);
     flex: 1;
-    padding-top: 50px;
+    padding-top: 100px;
     padding-left: 5%;
     padding-right: 5%;
+    min-height: 100vh;
 `;
 
 function PageDefault({ children }) {
