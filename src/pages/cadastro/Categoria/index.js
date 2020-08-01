@@ -29,8 +29,9 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
-    // console.log('teste');
-    const URL_CATEGORIA = 'http://localhost:8080/categorias';
+    const URL_CATEGORIA = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://arianeflix.herokuapp.com/categorias';
     fetch(URL_CATEGORIA)
       .then(async (respostaDoServidor) => {
         const resposta = await respostaDoServidor.json();
