@@ -5,7 +5,7 @@ import Menu from '../Menu';
 
 const Main = styled.main`
     background-color: var(--black);
-    color: var(--white);
+    color: var(--blueTheme);
     flex: 1;
     padding-top: 100px;
     padding-left: 5%;
