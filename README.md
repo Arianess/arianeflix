@@ -1,8 +1,10 @@
-## ARIANEFLIX
+## ARIANEFLIX :tv:
 
 Projeto desenvolvido durante a Imersão React promovida pela Alura. Aplicação inspirada na Nextflix.
 
-## Tecnologias, Ferramentas e Recursos
+:link: https://arianeflix.vercel.app/
+
+## Tecnologias, Ferramentas e Recursos :wrench:
 
 * HTML
 
@@ -24,7 +26,7 @@ Projeto desenvolvido durante a Imersão React promovida pela Alura. Aplicação 
 
 * Heroku
 
-## Funcionalidades
+## Funcionalidades :computer:
 
 * Cadastrar vídeo.
 
