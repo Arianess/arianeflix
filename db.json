@@ -1,16 +1,270 @@
 {
-	"categorias": [
-		{
-			"id": 1,
-			"nome": "Front End",
-			"descricao": "Desenvolvimento Web",
-			"cor": "#EE6A50"
-		},
-		{
-			"id": 2,
-			"nome": "Back End",
-			"descricao": "Desenvolvimento ",
-			"cor": "##FFFF00"
-		}
-	]
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "Filmes",
+      "cor": "#8A2BE2",
+      "link_extra": {
+        "text": "Dicas de Filmes",
+        "url": "https://www.youtube.com/watch?v=T29DHJhpmw0"
+      }
+    },
+    {
+      "id": 2,
+      "titulo": "Séries",
+      "cor": "#FF00FF",
+      "link_extra": {
+        "text": "Dicas de Séries",
+        "url": "https://www.youtube.com/watch?v=qnzfw3gnBh0"
+      }
+    },
+    {
+      "id": 3,
+      "titulo": "Músicas",
+      "cor": "#6959CD",
+      "link_extra": {
+        "text": "Dicas de Músicas",
+        "url": "https://www.youtube.com/watch?v=vzVN5uSJXIo"
+      }
+    },
+    {
+      "id": 4,
+      "titulo": "Entrevistas",
+      "cor": "#66CDAA",
+      "link_extra": {
+        "text": "Dicas de Entrevistas",
+        "url": "https://www.youtube.com/watch?v=fl6tvDlTJbg"
+      }
+    },
+    {
+      "id": 5,
+      "titulo": "Documentários",
+      "cor": "#EE799F",
+      "link_extra": {
+        "text": "Dicas de Documentários",
+        "url": "https://www.youtube.com/watch?v=LIxQDjbDtZE"
+      }
+    },
+    {
+      "id": 6,
+      "titulo": "Palestras",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Dicas de Palestras",
+        "url": "https://www.youtube.com/watch?v=gwMRRVPl_Yw"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "Black Panther",
+      "url": "https://www.youtube.com/watch?v=gVpWZCSqQEA"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "Pantera Negra",
+      "url": "https://www.youtube.com/watch?v=wL4a4MafSjQ"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "Se A Rua Beale Falasse",
+      "url": "https://www.youtube.com/watch?v=sIBdHJQWK5M"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "Django Livre",
+      "url": "https://www.youtube.com/watch?v=tivv135aGbc"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "Corra!",
+      "url": "https://www.youtube.com/watch?v=mDGV5UucTu8"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "Felicidade Por Um Fio",
+      "url": "https://www.youtube.com/watch?v=3LY-D32CN6s"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "O Ódio Que Você Semeia",
+      "url": "https://www.youtube.com/watch?v=5Ush5KHb23c"
+    },
+    {
+      "id": 8,
+      "categoriaId": 2,
+      "titulo": "Olhos Que Condenam",
+      "url": "https://www.youtube.com/watch?v=ucec-PLnZ9M"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Um Maluco No Pedaço",
+      "url": "https://www.youtube.com/watch?v=st4Xto16Aco&list=PL1H90M-aIJeUU5e8_Uv4wnVzpcKoy2uPW"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "The Get Down",
+      "url": "https://www.youtube.com/watch?v=r7xz416OxCs"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Eu, a Patroa e as Crianças",
+      "url": "https://www.youtube.com/watch?v=zFHxpmRhuTw&list=PL8Sjjz-miKH_g5O-HakKQsnRm2fRfRmYp"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "A Vida e a História de Madam C.J. Walker",
+      "url": "https://www.youtube.com/watch?v=PxIAdqHbloM"
+    },
+    {
+      "id": 13,
+      "categoriaId": 3,
+      "titulo": "Kendrick Lamar, SZA - All The Stars",
+      "url": "https://www.youtube.com/watch?v=JQbjS0_ZfJ0"
+    },
+    {
+      "id": 14,
+      "categoriaId": 3,
+      "titulo": "APES**T - THE CARTERS",
+      "url": "https://www.youtube.com/watch?v=kbMqWXnpXcA"
+    },
+    {
+      "id": 15,
+      "categoriaId": 3,
+      "titulo": "Rincon Sapiência - A Coisa Tá Preta",
+      "url": "https://www.youtube.com/watch?v=FsTTvHoLxEA"
+    },
+    {
+      "id": 16,
+      "categoriaId": 3,
+      "titulo": "Baco Exu do Blues - BLUESMAN",
+      "url": "https://www.youtube.com/watch?v=-xFz8zZo-Dw"
+    },
+    {
+      "id": 17,
+      "categoriaId": 3,
+      "titulo": "Emicida - Pantera Negra",
+      "url": "https://www.youtube.com/watch?v=Xi1BfosGv2E"
+    },
+    {
+      "id": 18,
+      "categoriaId": 4,
+      "titulo": "Roda Viva | Silvio Almeida",
+      "url": "https://www.youtube.com/watch?v=L15AkiNm0Iw"
+    },
+    {
+      "id": 19,
+      "categoriaId": 4,
+      "titulo": "Roda Viva | Emicida",
+      "url": "https://www.youtube.com/watch?v=pDV3SGzV3m4"
+    },
+    {
+      "id": 20,
+      "categoriaId": 4,
+      "titulo": "Espelho | Criolo e Lázaro Ramos",
+      "url": "https://www.youtube.com/watch?v=eP86LuPwUYk"
+    },
+    {
+      "id": 21,
+      "categoriaId": 4,
+      "titulo": "Nexo Jornal | Djamila Ribeiro",
+      "url": "https://www.youtube.com/watch?v=0k1mh7N8Caw"
+    },
+    {
+      "id": 22,
+      "categoriaId": 4,
+      "titulo": "Leandro Karnal | Djamila Ribeiro",
+      "url": "https://www.youtube.com/watch?v=b_vUQ7SGNJw"
+    },
+    {
+      "id": 23,
+      "categoriaId": 5,
+      "titulo": "13ª Emenda",
+      "url": "https://www.youtube.com/watch?v=h4uGff8OScM"
+    },
+    {
+      "id": 24,
+      "categoriaId": 5,
+      "titulo": "A Dona do Terreiro",
+      "url": "https://www.youtube.com/watch?v=6wP1Tg8MF2I"
+    },
+    {
+      "id": 25,
+      "categoriaId": 5,
+      "titulo": "Casa de Santo",
+      "url": "https://www.youtube.com/watch?v=yf7p-uWcQ-4"
+    },
+    {
+      "id": 26,
+      "categoriaId": 5,
+      "titulo": "África - Civilizações Perdidas",
+      "url": "https://www.youtube.com/watch?v=4VYG1KjN4eQ"
+    },
+    {
+      "id": 27,
+      "categoriaId": 5,
+      "titulo": "Capoeira Viva",
+      "url": "https://www.youtube.com/watch?v=mVP6xc6wQpY"
+    },
+    {
+      "id": 28,
+      "categoriaId": 6,
+      "titulo": "Djamila Ribeiro",
+      "url": "https://www.youtube.com/watch?v=q28i8NrMChI"
+    },
+    {
+      "id": 29,
+      "categoriaId": 6,
+      "titulo": "Leandro Karnal",
+      "url": "https://www.youtube.com/watch?v=IRBrjKs6hT4"
+    },
+    {
+      "id": 30,
+      "categoriaId": 6,
+      "titulo": "Alexandra Loras",
+      "url": "https://www.youtube.com/watch?v=MZ9vkZlczgA"
+    },
+    {
+      "id": 31,
+      "categoriaId": 6,
+      "titulo": "Juliana Luna",
+      "url": "https://www.youtube.com/watch?v=yYshSRXnN_E"
+    },
+    {
+      "id": 32,
+      "categoriaId": 6,
+      "titulo": "Luana Génot",
+      "url": "https://www.youtube.com/watch?v=HUe-ogOucuA"
+    },
+    {
+      "titulo": "Vídeo padrão",
+      "url": "https://www.youtube.com/watch?v=gwMRRVPl_Yw",
+      "categoriaId": 1,
+      "id": 33
+    },
+    {
+      "titulo": "Vídeo padrão",
+      "url": "https://www.youtube.com/watch?v=gwMRRVPl_Yw",
+      "categoriaId": 1,
+      "id": 34
+    },
+    {
+      "titulo": "Vídeo padrão",
+      "url": "https://www.youtube.com/watch?v=gwMRRVPl_Yw",
+      "categoriaId": 1,
+      "id": 35
+    }
+  ]
 }
